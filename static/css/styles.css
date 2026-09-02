@@ -7,18 +7,18 @@
 
 /* Global CSS Variables */
 :root {
-  --body-bg: #fef2dc;
-  --header-text: #fef7e9;
+  --body-bg: #EBD99F;
+  --header-text: #8E6F3E;
   --body-text: #050505;
-  --headings: #b65949;
-  --primary: #006361;
-  --primary-shadow: #0d4645;
-  --secondary: #d8a25a;
-  --secondary-shadow: #ab8147;
+  --headings: #DAAA00;
+  --primary: #cfb991;
+  --primary-shadow: #8E6F3E;
+  --secondary: #000000;
+  --secondary-shadow: #8E6F3E;
   --white: #ffffff;
 
   font-family: "Young Serif", serif;
-  text-align: center;
+  text-align: justify;
   scroll-behavior: smooth;
 }
 
@@ -261,6 +261,9 @@ header:has(.mobile-nav.open) {
 .project-img {
   aspect-ratio: 16/9;
   background-color: var(--primary);
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
 }
 
 .project-img img {
